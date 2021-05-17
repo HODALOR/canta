@@ -1,0 +1,34 @@
+.basket{
+    display:flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.basket__info {
+ padding-left: 20px;
+
+}
+
+.basket__info > button{
+    background-color:rgb(247, 234, 117);
+    border: 1px solid;
+    margin-top: 10px;
+    color:#000000 ;
+    border-color: yellowgreen;
+}
+
+.basket__info >img{
+    object-fit: contain;
+    height: 180px;
+    width: 180px;
+}
+
+.basket__rating{
+
+    display:flex;
+}
+
+.basket__title{
+    font: size 17px;
+    font-weight: 800px;
+}
